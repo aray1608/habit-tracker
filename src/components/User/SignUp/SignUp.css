@@ -1,0 +1,43 @@
+.sign-up-container {
+  max-width: 300px;
+}
+
+.sign-up-container form,
+input {
+  border: 1px solid rgba(128, 128, 128, 0.568);
+  min-height: 30px;
+}
+
+.sign-up-container input {
+  padding: 0 5px;
+}
+
+.sign-up-container button {
+  background-color: var(--blue);
+  color: white;
+  padding: 15px 0;
+  border-radius: 3px;
+  margin: 0 0;
+}
+
+.sign-up-container button:hover {
+  cursor: pointer;
+  background-color: rgb(53, 83, 173);
+}
+
+.sign-up-container button:disabled {
+  cursor: wait;
+  background-color: grey;
+}
+
+.form-control button a {
+  color: var(--white);
+}
+
+.sign-up-container a {
+  color: lightskyblue;
+}
+
+.sign-up-container a:hover {
+  color: var(--blue);
+}

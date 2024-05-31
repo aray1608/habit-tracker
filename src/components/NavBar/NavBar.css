@@ -1,0 +1,51 @@
+nav {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--blue);
+}
+
+nav h2 {
+  display: flex;
+  color: whitesmoke;
+  align-items: center;
+}
+
+nav button {
+  background-color: transparent;
+  color: var(--white);
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav button:hover {
+  cursor: pointer;
+  background-color: #4169e1;
+  color: white;
+}
+
+.nav-icon-container button {
+  margin-left: 5px;
+}
+
+.user-live-dot-container {
+  position: relative;
+}
+
+.user-live-dot {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0px;
+  right: -5px;
+}
+
+.user-live-dot-off {
+  color: var(--dark-red);
+}
+
+.user-live-dot-on {
+  color: var(--light-green);
+}
